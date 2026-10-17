@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ham ve işlenmiş veriler (GitHub'a gitmesin)
+data/raw/
+data/processed/
+*.csv
+*.zip
+
+# Şifreler ve ortam değişkenleri
+.env
+
+# Python / Sanal Ortam
+__pycache__/
+venv/
+.ipynb_checkpoints/
